@@ -1,4 +1,4 @@
-"""Gradio app for the Sidekick. Run with: uv run app.py"""
+"""Gradio app for the Sidekick."""
 
 import html
 
