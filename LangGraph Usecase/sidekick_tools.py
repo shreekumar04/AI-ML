@@ -1,5 +1,3 @@
-"""Tools for the Sidekick: a mix of MCP servers, ready-made LangChain tools and our own."""
-
 import asyncio
 import os
 from contextlib import AsyncExitStack
