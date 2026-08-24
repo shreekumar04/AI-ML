@@ -1,0 +1,14 @@
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+  readonly VITE_USE_MOCK_AUTH?: string;
+  readonly VITE_USE_MOCK_API?: string;
+  readonly VITE_AZURE_CLIENT_ID?: string;
+  readonly VITE_AZURE_TENANT_ID?: string;
+  readonly VITE_AZURE_API_SCOPE?: string;
+  readonly VITE_API_BASE_URL?: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
